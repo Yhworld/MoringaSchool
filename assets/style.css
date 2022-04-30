@@ -169,3 +169,14 @@ button.activate {
     top: 8px;
     right: 16px;
 }
+
+.Graduation {
+    display: flex;
+    height: 550px;
+    align-items: center;
+    justify-content: space-around
+}
+.party {
+    padding-right: 180px;
+    font-size: 18px;
+}
