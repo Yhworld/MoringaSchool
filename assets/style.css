@@ -129,6 +129,41 @@ button.activate {
     
 }
 
+.board {
+    display: flex;
+    height: 550px;
+    align-items: center;
+    justify-content: space-around
+}
+
+.boardtext {
+    padding-left: 80px;
+    font-size: 18px;
+}
+
+
+.boardimages {
+    position: relative;
+    text-align: center;
+    color: white
+}
+
+
+.top-left {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+}
+.bottom-right {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+  }
+
+.boardimages img  {
+    width: 500px;
+}
+
 .top-right {
     position: absolute;
     top: 8px;
