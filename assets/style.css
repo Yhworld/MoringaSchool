@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito Sans';
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    background: #fff;
+    align-items: center;
+}
+.logo {
+    font-size: 28px;
+    padding-left: 100px;
+    color: #EC4067;
+    font-weight: bold;
+}
+.logo span {
+    color: #000;
+}
+
+.nav {
+    display: flex;
+    gap: 60px;
+    padding-right: 60px;
+}
+
+ul{
+    text-decoration: none;
+    display: flex;
+    padding-right: 80px;
+    list-style: none;
+}
+ul li a {
+    text-decoration: none;
+    padding: 0px 15px 0px 20px;
+}
+
+.firstbtn {
+    padding-right: 60px;
+}
+.enroll {
+    background: #EC4067;
+    padding: 8px 23px 8px 23px;
+    border-radius: 9px;
+    color: #fff;
+}
