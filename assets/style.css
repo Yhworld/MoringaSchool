@@ -93,3 +93,44 @@ button.activate {
     border: 1px solid #EC4067;
     font-size: 16px;
 }
+
+.overlay img  {
+    width: 500px;
+    margin-left: 100px;
+}
+
+.orientation {
+    display: flex;
+    height: 550px;
+    align-items: center;
+    justify-content: space-around
+}
+.orientaionday {
+    padding-right: 180px;
+    font-size: 18px;
+}
+
+.orientation h3 {
+    padding-left: 100px;
+    font-weight: lighter;
+
+}
+
+.overlay{
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  
+.bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 110px;
+    
+}
+
+.top-right {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+}
