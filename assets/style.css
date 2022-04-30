@@ -219,3 +219,27 @@ button.activate {
 .bike  img {
     width: 500px;
 }
+
+section.contactbox {
+    display: flex;
+    flex-direction: column;
+    height: 250px;
+    justify-content: center;
+    padding-left: 200px;
+}
+
+
+.contactbox h2 {
+    font-weight: lighter;
+    color: #EC4067;
+}
+
+.contactbox p {
+    font-size: 20px;
+}
+
+.contactbox p  a{
+    text-decoration: none;
+    color: #EC4067;;
+    font-size: 16px;
+}
