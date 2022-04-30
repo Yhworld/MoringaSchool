@@ -180,3 +180,38 @@ button.activate {
     padding-right: 180px;
     font-size: 18px;
 }
+
+.mentors {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    height: 550px;
+    align-items: center;
+}
+
+.boxes h3 {
+    color: #EC4067;
+    font-weight: lighter;
+
+}
+
+
+
+
+.boxes img {
+    width: 250px
+}
+
+.boximg {
+     position: relative;
+    text-align: center;
+    color: white;
+
+}
+
+.rose {
+     position: absolute;
+    bottom: 8px;
+    left: 14px;
+
+}
