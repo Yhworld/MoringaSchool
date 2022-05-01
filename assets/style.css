@@ -57,16 +57,16 @@ ul li a {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 550px;
+    height: 610px;
 }
 .head {
-    margin-right: 100px;
+    margin-right: 200px;
 }
 .head p {
     font-size: 18px;
 }
 .head h1 {
-    font-size: 30px;
+    font-size: 40px;
     color: #EC4067;
     font-weight: lighter;
 }
@@ -113,8 +113,17 @@ button.activate {
 .orientation h3 {
     padding-left: 100px;
     font-weight: lighter;
+    font-size: 28px;
 
 }
+.orientation h3 span{
+    background: #edeaea;
+}
+
+.orientation h3 sub{
+    font-size: 14px;
+}
+
 
 .overlay{
     position: relative;
@@ -131,7 +140,7 @@ button.activate {
 
 .board {
     display: flex;
-    height: 550px;
+    height: 450px;
     align-items: center;
     justify-content: space-around
 }
@@ -187,6 +196,25 @@ button.activate {
     gap: 40px;
     height: 550px;
     align-items: center;
+    position: relative;
+}
+
+h2.Technical {
+    padding-left: 160px;
+    position: absolute;
+    font-size: 28px;
+    font-weight: lighter;
+}
+
+h2 span {
+    background: #edeaea;
+}
+
+
+sup {
+    font-size: 14px;
+    font-weight: lighter;
+    padding-left: 10px;
 }
 
 .boxes h3 {
@@ -194,9 +222,6 @@ button.activate {
     font-weight: lighter;
 
 }
-
-
-
 
 .boxes img {
     width: 250px
@@ -214,6 +239,14 @@ button.activate {
     bottom: 8px;
     left: 14px;
 
+}
+
+h2.bike-h {
+    position: absolute;
+    padding-left: 160px;
+    padding-top: 80px;
+    font-size: 30px;
+    font-weight: lighter;
 }
 
 .bike  img {
